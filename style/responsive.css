@@ -1,0 +1,33 @@
+@media (max-width: 380px){
+    .titulo {
+         font-size: 20pt;
+     }
+    .descricao {
+        font-size: 12pt;
+    }
+
+    header .logo {
+        font-size: 28px;
+    }
+
+    nav {
+        font-size: 10pt;
+    }
+}
+
+@media (max-width: 750px) {
+    header .container .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .descricao {
+        width: 50%;
+    }
+}
